@@ -17,3 +17,9 @@ bool cari2D(char grid[R][C], int row, int col, string kata)
         int k, rd = row + x[dir], cd = col + y[dir];
         for (k = 1; k < len; k++)
         {
+		if (rd >= R || rd < 0 || cd >= C || cd < 0)
+                break;
+            if (grid[rd][cd] != kata[k])
+                break;
+            rd += x[dir], cd += y[dir];
+        }
