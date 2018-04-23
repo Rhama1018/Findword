@@ -60,3 +60,10 @@ int main()
 	int n;
 	cin>>n;
 	char kata[100];
+	for (int i=1;i<=n;i++){
+ 		cout<<"Masukkan Kata ke-"<<i<<" : ";cin>>kata; 
+ 		patternSearch(grid, kata);
+	 }	
+    return 0;
+}
+		  	  
