@@ -7,3 +7,7 @@ using namespace std;
 int x[] = { -1, -1, -1, 0, 0, 1, 1, 1 };
 int y[] = { -1, 0, 1, -1, 1, -1, 0, 1 };
 bool cari2D(char grid[R][C], int row, int col, string kata)
+{
+    if (grid[row][col] != kata[0]){
+    	 return false;
+	}
