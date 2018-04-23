@@ -1,7 +1,7 @@
 #include<iostream>
 #include<stdio.h>
 using namespace std;
-
+//Definisi besar baris dan Kolom
 #define R 15
 #define C 15
 
