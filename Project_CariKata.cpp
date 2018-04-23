@@ -38,3 +38,5 @@ void patternSearch(char grid[R][C], string kata)
 if(flag==1) cout << "Ada coeg" << endl;
     else if(flag==0) cout << "gada coeg" << endl;
 }
+int main()
+{
