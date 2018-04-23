@@ -23,3 +23,8 @@ bool cari2D(char grid[R][C], int row, int col, string kata)
                 break;
             rd += x[dir], cd += y[dir];
         }
+	    if (k == len)
+            return true;
+    }
+    return false;
+}
