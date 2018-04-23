@@ -5,6 +5,7 @@ using namespace std;
 #define R 15
 #define C 15
 
+//Untuk mencari kata di 8 arah
 int x[] = { -1, -1, -1, 0, 0, 1, 1, 1 };
 int y[] = { -1, 0, 1, -1, 1, -1, 0, 1 };
 
