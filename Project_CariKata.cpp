@@ -11,3 +11,5 @@ bool cari2D(char grid[R][C], int row, int col, string kata)
     if (grid[row][col] != kata[0]){
     	 return false;
 	}
+    int len = kata.length();
+    for (int dir = 0; dir < 8; dir++)
