@@ -63,14 +63,10 @@ int main()
 	int n;
 	cin>>n;
 	char kata[100];
-	string temp;
 
  	for (int i=1;i<=n;i++){
- 		cout<<"Masukkan Kata ke-"<<i<<" : ";cin>>kata; 
- 		 temp=*kata;
- 		int *temp=kata;
+ 		cout<<"Masukkan Kata ke-"<<i<<" : ";cin>>kata;
+		patternSearch(grid, temp);
 	 }	
-	for (int i=1;i<=n;i++){
-	patternSearch(grid, temp);}
     return 0;
 }
