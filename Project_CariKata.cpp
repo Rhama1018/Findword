@@ -13,3 +13,7 @@ bool cari2D(char grid[R][C], int row, int col, string kata)
 	}
     int len = kata.length();
     for (int dir = 0; dir < 8; dir++)
+	    {
+        int k, rd = row + x[dir], cd = col + y[dir];
+        for (k = 1; k < len; k++)
+        {
