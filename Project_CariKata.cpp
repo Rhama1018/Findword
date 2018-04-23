@@ -57,5 +57,14 @@ int main()
 			  {'p','d','c','r','z','m','s','n','g','r','d','n','r','p','z'},
 			  {'o','h','n','k','z','w','a','t','e','r','j','g','t','r','a'}
 			  };
-
+	int n;
+	cin>>n;
+	char kata[100];
+	
+ 	for (int i=1;i<=n;i++){
+ 		cout<<"Masukkan Kata ke-"<<i<<" : ";cin>>kata; 
+ 		patternSearch(grid, kata);
+	 }	
+    return 0;
+}
 		  	  
