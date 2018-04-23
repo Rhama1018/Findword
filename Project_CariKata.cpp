@@ -29,3 +29,6 @@ bool cari2D(char grid[R][C], int row, int col, string kata)
     return false;
 }
 void patternSearch(char grid[R][C], string kata)
+{
+	
+}
