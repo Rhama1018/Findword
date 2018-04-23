@@ -30,5 +30,9 @@ bool cari2D(char grid[R][C], int row, int col, string kata)
 }
 void patternSearch(char grid[R][C], string kata)
 {
-	
+	int flag=0;
+    for (int row = 0; row < R; row++)
+       for (int col = 0; col < C; col++)
+          if (cari2D(grid, row, col, kata))
+             flag=1;
 }
