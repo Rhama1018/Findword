@@ -35,4 +35,6 @@ void patternSearch(char grid[R][C], string kata)
        for (int col = 0; col < C; col++)
           if (cari2D(grid, row, col, kata))
              flag=1;
+if(flag==1) cout << "Ada coeg" << endl;
+    else if(flag==0) cout << "gada coeg" << endl;
 }
