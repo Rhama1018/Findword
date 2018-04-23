@@ -66,7 +66,7 @@ int main()
 
  	for (int i=1;i<=n;i++){
  		cout<<"Masukkan Kata ke-"<<i<<" : ";cin>>kata;
-		patternSearch(grid, temp);
+		patternSearch(grid, kata);
 	 }	
     return 0;
 }
